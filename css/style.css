@@ -1,0 +1,193 @@
+body{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.common{
+    position:absolute;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.sun{
+    width: 100px;
+    height:100px;
+    background-image:url(../img/sun.png);
+    background-size: cover;
+    margin: 350px auto;
+    border-radius: 100px;
+    position: relative;
+}
+.mercury{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/1mercury.png);
+    background-size: cover;
+    border-radius: 50px;
+    bottom:33px;
+    right:-70px;
+    transform-origin: -86px 0px;
+    animation-name: mercury1;
+    animation-duration: 0.8s;
+    /* animation-play-state: paused; */
+}
+@keyframes mercury1 {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(-359deg);
+    }
+    
+}
+.venus{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/2venus.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    bottom: 35px;
+    right: -150px;
+    transform-origin: -140px center;
+    animation-name: venusanimation;
+    animation-duration: 1.3s;
+    /* animation-play-state: paused; */
+}
+@keyframes venusanimation {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(-359deg);
+    }
+    
+}
+.earth{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: url(../img/3earth.png);
+    background-size:cover;
+    bottom:30px;
+    right: -230px;
+    animation-name: earthanimation;
+    animation-duration: 2s;
+    transform-origin:-225px center;
+    /* animation-play-state: paused; */
+}
+@keyframes earthanimation {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-359deg);
+    }
+
+}   
+.moon{
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    background-image: url(../img/moon.png);
+    background-size: cover;
+    bottom:10px;
+    right: -20px;
+    animation-name: moonanimation;
+    animation-duration: 1s;
+    /* animation-play-state: paused; */
+    transform-origin:-30px 0px;
+    
+}
+@keyframes moonanimation {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(-359deg);
+    }
+    
+}
+.mars{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: url(../img/mars.png);
+    background-size: cover;
+    bottom: 30px;
+    right: -320px;
+    animation-name: marsanimation;
+    /* animation-play-state: paused; */
+    animation-duration: 2.5s;
+    transform-origin: -340px center;
+ }
+@keyframes marsanimation {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-359deg);
+    }
+} 
+.jupiter{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: url(../img/5jupiter.png);
+    background-size: cover;
+    bottom: 30px;
+    right: -400px;
+    animation-name: jupiteranimation;
+    /* animation-play-state: paused; */
+    animation-duration: 3s;
+    transform-origin: -450px center;
+ }
+@keyframes jupiteranimation {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-359deg);
+    }
+} 
+.saturn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: url(../img/6saturn.png);
+    background-size: cover;
+    bottom: 30px;
+    right: -480px;
+    animation-name: saturnanimation;
+    /* animation-play-state: paused; */
+    animation-duration: 3.5s;
+    transform-origin: -580px center;
+ }
+@keyframes saturnanimation {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-359deg);
+    }
+} 
+.uranus{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: url(../img/7uranus.png);
+    background-size: cover;
+    bottom: 30px;
+    right: -560px;
+    animation-name: uranusanimation;
+    /* animation-play-state: paused; */
+    animation-duration: 4s;
+    transform-origin: -700px center;
+ }
+@keyframes uranusanimation {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-359deg);
+    }
+} 
